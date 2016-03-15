@@ -42,8 +42,6 @@ class User
   attribute :name, String
 end
 
-ids = []
-
 user = User.create(:name => 'John')
 
 pp user
